@@ -1,5 +1,9 @@
 # Meta-abicompat
 
+--
+This repo is discontinued. Development is now in: https://github.com/bmwcarit/meta-abicompat
+--
+
 This is a work in progress!
 
 This is a demo project that shows how libabigail can be integrated into a Yocto build to hook ABI compatibility and HashEquiv together. By using libabigail to get a textual representation of a shared libraries ABI, we can inject this into the hash equivalence mechanism instead of the file checksum. The result is the ability to avoid rebuilding applications when library ABIs are not changing.
